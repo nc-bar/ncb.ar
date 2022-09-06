@@ -1,6 +1,6 @@
 #!/bin/sh
 
-. vars
+. ./vars
 
 scp -P "$port" -r site/* "$user"@"$ip":/var/www/ncb.ar/html/
 
