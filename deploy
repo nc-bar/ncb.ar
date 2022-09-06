@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. vars
+
+scp -P "$port" -r site/* "$user"@"$ip":/var/www/ncb.ar/html/
+
